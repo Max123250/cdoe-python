@@ -1,0 +1,12 @@
+num = input("Enter your number:")
+nums = list(eval(num))
+print(len(nums))
+nums.sort()
+print(nums[0])
+nums.reverse()
+nums_str = str(nums)
+nums_str.strip("[")
+nums_str.strip("]")
+print(nums_str + "1")
+
+print(",".join(nums))
